@@ -1,0 +1,36 @@
+body{
+ font-family: 'Poppins', sans-serif;
+ margin: 0;
+}
+
+#welcome-color{
+        background-image: linear-gradient(orange,red);
+        border-radius : 20px;
+        padding: 5px;
+}
+#text-center{
+    text-align: center;
+
+}
+#enjoy-color{
+    color: orange;
+}
+.background-color{
+    background-image: linear-gradient(orangered , orange);
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+.font-size{   
+     font-size: 50px;
+
+}
+.width{
+    width: 50%;
+    margin: 50px;
+   
+}
+section{
+    display: flex;
+}
