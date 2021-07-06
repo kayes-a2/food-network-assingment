@@ -12,10 +12,13 @@ body{
     text-align: center;
 }
 .border{
-    margin-top : 40px;
+    margin-top : 50px;
 }
 #enjoy-color{
     color: orange;
+}
+.the-beauty{
+    color: gray;
 }
 .background-color{
     background-image: linear-gradient(orangered , orange);
@@ -25,18 +28,31 @@ body{
     padding: 10px 25px;
     font-weight: bold;
 }
+
 .font-size{   
      font-size: 50px;
+     margin-top: 200px;
 
 }
 .width{
+    width: 100%;
+    margin: 50px;
+    height: 50%;
+
+}
+
+.display-flex{
+    display: flex;
+
+}
+#width img{
     width: 50%;
     margin: 50px;
-   
+    height: 80%;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
-section{
-    display: flex;
-}
-.top{
-    position :relative;
+#font-size{
+    font-size: 50px;
+    padding-top: 50px;
 }
