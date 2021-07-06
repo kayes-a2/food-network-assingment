@@ -3,6 +3,26 @@ body{
  margin: 0;
 }
 
+nav{
+    text-decoration: none;
+    list-style: none;
+    height: 70px;
+    width: 100%;
+    background-color: teal;
+    border-radius: 5px;
+}
+nav ul{
+    float: left ;
+    margin right:  50px;
+}
+nav li{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
 .welcome-color{
         background-image: linear-gradient(orange,red);
         border-radius : 20px;
@@ -70,3 +90,55 @@ body{
     
 }
 
+
+.food{
+    width: 25%;
+    padding: 2%;
+    margin: 5%;
+    text-align: justify;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px gray;
+}
+.food img{
+    height: 180px;
+    border-radius: 10px;
+}
+#opacity{
+    color: rgba(128, 128, 128, 0.795);
+}
+#fan{
+    width: 80%;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px gray;
+    vertical-align: middle;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 20px;
+}
+.follower{
+    height: 120px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+footer{
+    background-color: rgb(23, 25, 36);
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+#eat{
+    color: white;
+}
+#copyright{
+    margin: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color:  rgb(23, 25, 36);
+    color: darkgrey;
+}
